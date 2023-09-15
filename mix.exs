@@ -22,7 +22,12 @@ defmodule DocusignBackup.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:docusign, "~> 1.1.0"}
+      {:docusign, "~> 1.1.1"},
+      {:timex, "~> 3.7"},
+      {:tesla, "~> 1.4"},
+
+      # optional, but recommended adapter
+      {:hackney, "~> 1.17"}
     ]
   end
 end
