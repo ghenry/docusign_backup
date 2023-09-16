@@ -1,7 +1,7 @@
 # DocusignBackup
 
-**TODO: Add description**
-
+ Backup and download all of your completed DocuSign documents in a combined PDF format. 
+ 
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
